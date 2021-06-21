@@ -1,0 +1,2 @@
+# PterodactylBot
+A Pterodactyl Bot
