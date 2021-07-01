@@ -1,3 +1,3 @@
-module.exports=bot=>{
-    console.log(`嗨, ${bot.user.username} 现在已在线!`)
+module.exports = (bot, language) => {
+    console.log(language.handle["loading"].done.replace("%bot%", bot.user.username))
 }

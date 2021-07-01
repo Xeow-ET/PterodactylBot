@@ -1,0 +1,12 @@
+{
+    "CorrectPath": true,
+    "debug": false,
+    "language": "zh-cn",
+    "timezone": {
+        "enabled": false,
+        "tz": "Asia/Kuala_Lumpur"
+    },
+    "moment-format": "LL LTS",
+    "force_support": true,
+    "ConfigVersion": "v1"
+}

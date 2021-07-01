@@ -1,0 +1,30 @@
+{
+    "prefix": "!",
+    "token": "",
+    "activity": {
+        "first": {
+            "type": "WATCHING",
+            "activity": "Pterodactyl Bot by HS Team",
+            "status": "idle"
+        },
+        "activities": [
+            {
+                "type": "WATCHING",
+                "activity": "!help",
+                "status": "idle"
+            },
+            {
+                "type": "STREAMING",
+                "activity": "PterodactylBot V1",
+                "status": "idle"
+            },
+            {
+                "type": "PLAYING",
+                "activity": "https://github.com/Happy-and-Smile/PterodactylBot",
+                "status": "idle"
+            }
+        ]
+    },
+    "reload_channel": "",
+    "ConfigVersion": "v1"
+}

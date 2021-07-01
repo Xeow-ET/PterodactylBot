@@ -1,0 +1,192 @@
+{
+    "注释": "如果你不知道这里是什么,请不要随意更改这里",
+    "note": "Please note that if you don't know what you are doing, don't try to change the things inside here",
+    "ConfigVersion": "v1",
+    "command": {
+        "help": {
+            "enabled": true,
+            "aliases": [],
+            "name": "help",
+            "category": "other",
+            "description": "幫助列表",
+            "roles": [],
+            "usage": "help [command/alias]",
+            "timeout": 0
+        },
+        "ping": {
+            "enabled": true,
+            "aliases": [],
+            "name": "ping",
+            "category": "other",
+            "description": "返回延迟和API 延迟",
+            "roles": [],
+            "timeout": 0
+        },
+        "user-api": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-api",
+            "category": "user",
+            "description": "查看/创建或者删除API密钥",
+            "roles": [],
+            "usage": "user-change-api <list/create/delete> [name/ID] [IPs]",
+            "timeout": 0,
+            "options": {
+                "1": "list",
+                "2": "create",
+                "3": "delete"
+            }
+        },
+        "user-change-email": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-change-email",
+            "category": "user",
+            "description": "更改邮箱",
+            "roles": [],
+            "usage": "user-change-email <email> <password>",
+            "timeout": 0
+        },
+        "user-change-password": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-change-password",
+            "category": "user",
+            "description": "更改密码",
+            "roles": [],
+            "usage": "user-change-password <密码> <新密码> <确认密码>",
+            "timeout": 0
+        },
+        "user-database": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-database",
+            "category": "user",
+            "description": "查看/创建/更改或者删除数据库",
+            "roles": [],
+            "usage": "user-database <serverID> <list/create/rotate-password/delete> [Database Name/Database ID] [remote]",
+            "timeout": 0,
+            "options": {
+                "1": "list",
+                "2": "create",
+                "3": "delete",
+                "4": "rotate-password"
+            }
+        },
+        "user-info": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-info",
+            "category": "user",
+            "description": "显示个人资料",
+            "roles": [],
+            "usage": "user-info",
+            "timeout": 0
+        },
+        "user-server-settings": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-server-settings",
+            "category": "user",
+            "description": "设置伺服器",
+            "roles": [],
+            "usage": "user-server-settings <ServerID> <rename/reinstall> [NewName]",
+            "timeout": 0,
+            "options": {
+                "1": "rename",
+                "2": "reinstall"
+            }
+        },
+        "user-servers": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-servers",
+            "category": "user",
+            "description": "查看所有伺服器列表",
+            "roles": [],
+            "usage": "user-servers",
+            "timeout": 0
+        },
+        "user-two-factor": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-two-factor",
+            "category": "user",
+            "description": "开启或关闭账号双重验证",
+            "roles": [],
+            "usage": "user-two-factor <enable/disable> [password]",
+            "timeout": 0,
+            "options": {
+                "1": "enable",
+                "2": "disable"
+            }
+        },
+        "user-show-permissions": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-show-permissions",
+            "category": "user",
+            "description": "查看API所有权限",
+            "roles": [],
+            "usage": "user-show-permissions",
+            "timeout": 0
+        },
+        "user-server-details": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-server-details",
+            "category": "user",
+            "description": "查看伺服器的详细信息",
+            "roles": [],
+            "usage": "user-server-details <伺服器ID>",
+            "timeout": 0
+        },
+        "user-server-resource": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-server-resource",
+            "category": "user",
+            "description": "查看伺服器资源占用",
+            "roles": [],
+            "usage": "user-server-resource <伺服器ID>",
+            "timeout": 0
+        },
+        "user-server-power": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-server-power",
+            "category": "user",
+            "description": "开启/关闭/重启或强制关闭伺服器",
+            "roles": [],
+            "usage": "user-server-power <伺服器ID> <start/stop/restart/kill>",
+            "timeout": 0
+        },
+        "user-server-allocation": {
+            "enabled": true,
+            "aliases": [],
+            "name": "user-server-allocation",
+            "category": "user",
+            "description": "列出端口/为端口添加笔记/添加端口/刪除端口/设置端口为主要端口",
+            "roles": [],
+            "usage": "user-server-allocation <伺服器ID> <list/create/note/primary/delete> [id] [笔记/备注]",
+            "timeout": 0,
+            "options": {
+                "1": "list",
+                "2": "create",
+                "3": "note",
+                "4": "primary",
+                "5": "delete"
+            }
+        },
+        "reload": {
+            "enabled": true,
+            "aliases": [],
+            "name": "reload",
+            "category": "admin",
+            "description": "重载机器人",
+            "roles": [],
+            "usage": "reload",
+            "timeout": 0
+        }
+    }
+}
