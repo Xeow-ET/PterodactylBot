@@ -10,7 +10,7 @@ const logo = fs.readFileSync('./resource/logo.txt', 'utf8')
 console.log("\x1b[36m\x1b[1m" + logo + "\x1b[0m")
 if (BotConfig["force_support"] === true) {
     if (Math.floor(process.version) < 14) {
-        console.info("你的NodeJS版本过旧, 目前只支持v14或以上, 请更新你的NodeJS版本!")
+        console.warn("你的NodeJS版本过旧, 目前只支持v14或以上, 请更新你的NodeJS版本!")
         process.exit()
     }
 }
@@ -28,10 +28,8 @@ if (BotConfig["debug"] === true) {
     console.debug = function () { }
 }
 if (!fs.existsSync(`./resource/language/${BotConfig["language"]}.json`)) {
-    console.info("无法检测到 %language% 的语言文件, 请添加该语言的语言文件后再重新启动")
-        .replace("%language%", BotConfig["language"])
-    console.info("Could not find language %language% 's language file, please make sure the language file exists then you start again")
-        .replace("%language%", BotConfig["language"])
+    console.info(`无法检测到 ${BotConfig["language"]} 的语言文件, 请添加该语言的语言文件后再重新启动`)
+    console.info(`Could not find language ${BotConfig["language"]} 's language file, please make sure the language file exists then you start again`)
     process.exit()
 }
 const LangPath = `./resource/language/${BotConfig["language"]}.json`
