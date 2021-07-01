@@ -49,16 +49,15 @@ console.info("\x1b[36m" + language["start"].notice)
 console.info("\x1b[36m" + language["start"].notice2)
 require(`./handlers/command`)(bot, language);
 bot.on('ready', () => {
-    bot.user.setActivity(DiscordConfig["activity"].first["activities"], { type: DiscordConfig["activity"].first["type"] })
+    bot.user.setPresence({ activity: { name: DiscordConfig["activity"].first["activity"], type: DiscordConfig["activity"].first["type"] }, status: DiscordConfig["activity"].first["status"] })
     setInterval(async () => {
         let textList = DiscordConfig["activity"].activities
-        var text = textList[Math.floor(Math.random() * textList.length)];
-        bot.user.setActivity(text, { type: DiscordConfig["activity"].type })
+        let x = Math.floor(Math.random() * textList.length)
+        bot.user.setPresence({ activity: { name: textList[x].activity, type: textList[x].type }, status: textList[x].status })
     }, 30000)
     require("./events/client/ready")(bot, language)
     require("./events/client/console")(bot, language)
-    bot.channels.cache.get(DiscordConfig["reload_channel"]).send(language["command"].reload["reloaded"])
-    console.log(language["command"].reload["reloaded"]);
+    console.log(language["handle"].loading["done_1"])
 })
 bot.on('message', async message => {
     require('./events/guild/message')(bot, message, DiscordConfig, PteroConfig, language)
