@@ -20,10 +20,8 @@ if (BotConfig["debug"] === true) {
     console.debug = function() {}
 }
 if (!fs.existsSync(`./resource/language/${BotConfig["language"]}.json`)) {
-    console.log("无法检测到 %language% 的语言文件, 请添加该语言的语言文件后再重新启动")
-        .replace("%language%", BotConfig["language"])
-    console.log("Could not find language %language% 's language file, please make sure the language file exists then you start again")
-        .replace("%language%", BotConfig["language"])
+    console.info(`无法检测到 ${BotConfig["language"]} 的语言文件, 请添加该语言的语言文件后再重新启动`)
+    console.info(`Could not find language ${BotConfig["language"]} 's language file, please make sure the language file exists then you start again`)
     process.exit()
 }
 const LangPath = `./resource/language/${BotConfig["language"]}.json`
