@@ -7,7 +7,7 @@ const bot = new Discord.Client({ disableMentions: 'everyone' });
 const moment = require('moment-timezone');
 console.clear()
 const logo = fs.readFileSync('./resource/logo.txt', 'utf8')
-console.log("\x1b[36m\x1b[1m" + logo + "\x1b[0m")
+console.log("\x1b[36m\x1b[1m" + logo.split("\n").join("\n\x1b[36m\x1b[1m") + "\x1b[0m")
 if (BotConfig["force_support"] === true) {
     if (process.version.replace("v", "").split(".")[0] < 14) {
         console.warn("你的NodeJS版本过旧, 目前只支持v14或以上, 请更新你的NodeJS版本!")
