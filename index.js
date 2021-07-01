@@ -9,7 +9,7 @@ console.clear()
 const logo = fs.readFileSync('./resource/logo.txt', 'utf8')
 console.log("\x1b[36m\x1b[1m" + logo + "\x1b[0m")
 if (BotConfig["force_support"] === true) {
-    if (Math.floor(process.version) < 14) {
+    if (process.version.replace("v", "").split(".")[0] < 14) {
         console.warn("你的NodeJS版本过旧, 目前只支持v14或以上, 请更新你的NodeJS版本!")
         process.exit()
     }
