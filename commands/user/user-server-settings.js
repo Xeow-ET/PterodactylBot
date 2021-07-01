@@ -29,9 +29,8 @@ module.exports = {
             let url = `/api/client/servers/${ServerID}/settings/reinstall`
             let method = "POST"
             let response = await PteCore.user(url, method, message)
-            if(response === "empty") {
-                message.channel.send(lang["reinstalled"])
-            }
+            if(!response) return
+            message.channel.send(lang["reinstalled"])
         }
     }
 }
