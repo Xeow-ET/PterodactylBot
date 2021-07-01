@@ -78,7 +78,7 @@
         "user-info": {
             "your_info": "你的个人资料:",
             "admin": "(面板管理员)",
-            "user": "子用户",
+            "user": "(子用户)",
             "username": "用户名",
             "email": "邮箱",
             "first_name": "性",
