@@ -21,9 +21,9 @@ Pterodactyl Bot是一个机器人并使用Pterodactyl面板API制作出的多功
 此机器人完全使用 [MIT](./LICENSE) 协议开源，维护良好的开源生态从我做起 (*>ω<)φ
 
 <div style="text-align: center"><span style="font-family: 'Tahoma'"><span style="font-size: 18px"><br>
-<a href="https://pterodactyl.xinrui.tk/" target="_blank" class="externalLink" rel="nofollow"><img src="https://i.imgur.com/Hv9gcKM.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]"</a><br>
-<a href="https://discord.gg/wu2qs6eAZQ" target="_blank" class="externalLink" rel="nofollow"><img src="https://imgur.com/QdqdNVo.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" data-url="https://imgur.com/QdqdNVo.png"></a>
-<a href="https://www.spigotmc.org/resources/authors/esophose.34168/" class="internalLink"><img src="https://imgur.com/LIMDboy.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" data-url="https://imgur.com/LIMDboy.png"></a><br>
+<a href="https://pterodactyl.xinrui.tk/" target="_blank" class="externalLink" rel="nofollow"><img src="https://i.imgur.com/Hv9gcKM.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]"</a>
+<a href="https://discord.gg/wu2qs6eAZQ" target="_blank" class="externalLink" rel="nofollow"><img src="https://imgur.com/QdqdNVo.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" data-url="https://imgur.com/QdqdNVo.png"></a><br>
+<a href="https://www.spigotmc.org/resources/authors/esophose.34168/" class="internalLink"><img src="https://imgur.com/LIMDboy.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" data-url="https://imgur.com/LIMDboy.png"></a>
 <a href="https://github.com/Rosewood-Development/PlayerPoints" target="_blank" class="externalLink" rel="nofollow"><img src="https://imgur.com/kkIKu5K.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" ></a><br>
 <br>
 <br>
