@@ -1,0 +1,209 @@
+{
+    "start": {
+        "notice": "此机器人是由Happy And Smile团队制作",
+        "notice2": "若出现问题可以在我们的Github https://github.com/Happy-and-Smile/PterodactylBot 进行回报"
+    },
+    "bot": {
+        "prefix": "机器人进程",
+        "shutdown_1": "关闭机器人中...",
+        "shutdown_2": "感谢使用Pterodactyl Bot 制作by HS FOREVER"
+    },
+    "core": {
+        "no_key": "缺少密钥! 请前往 config/pterodactyl.json 设置!",
+        "no_cookie": "缺少cookie! 请前往 config/pterodactyl.json 设置!",
+        "not_supported": "不支持该验证方法! 请前往 config/pterodactyl.json 设置",
+        "error_code": "错误代码",
+        "not_json": "检测到不是JSON"
+    },
+    "command": {
+        "help": {
+            "command_not_found": "没有找到指令**%command%**",
+            "command_name": "指令名字",
+            "aliases": "别名",
+            "description": "描述",
+            "usage": "使用方法",
+            "footer": "语法: <> = 必须, [] = 可选",
+            "cooldown": "冷却",
+            "no_alias": "没有设置别名"
+        },
+        "ping": {
+            "pinging": "🏓 Pinging....",
+            "title": "Pong!",
+            "description": "🏓 Pong!\n延迟为 %ping%ms\nAPI延迟为 %api_ping%ms"
+        },
+        "user-api": {
+            "list": {
+                "title": "**所有API密钥**:",
+                "identifier": "ID",
+                "allowed_ips": "允许的IP(s)",
+                "none": "无",
+                "lastest_use": "最后一次使用",
+                "unused": "未使用",
+                "creation_date": "创建时间"
+            },
+            "wrong_usage": "使用方法错误, 请使用`help user-api` 来获取指令帮助",
+            "created": "创建API密钥成功! secret token: ||%secret_token%||",
+            "deleted": "删除API密钥成功!"
+        },
+        "user-change-email": {
+            "wrong_usage": "使用方法错误, 请使用`help user-change-email` 来获取指令帮助",
+            "changed": "已成功更改邮箱"
+        },
+        "user-change-password": {
+            "wrong_usage": "使用方法错误, 请使用`help user-change-password` 来获取指令帮助",
+            "changed": "已成功更改密码"
+        },
+        "user-database": {
+            "wrong_usage": "使用方法错误, 请使用`help user-database` 来获取指令帮助",
+            "list": {
+                "title": "所有数据库",
+                "no_database": "无数据库可显示"
+            },
+            "create": {
+                "title": "创建数据库成功!"
+            },
+            "rotate_password": {
+                "title": "更改数据库密码成功!"
+            },
+            "deleted": "已成功删除数据库",
+            "name": "数据库名",
+            "id": "ID",
+            "host": "数据库主机",
+            "username": "用户名",
+            "password": "密码",
+            "connections_from": "连接来自",
+            "max_connections": "最大连接数量",
+            "changed": "已成功更改密码"
+        },
+        "user-info": {
+            "your_info": "你的个人资料:",
+            "admin": "(面板管理员)",
+            "user": "(子用户)",
+            "username": "用户名",
+            "email": "邮箱",
+            "first_name": "性",
+            "last_name": "名",
+            "language": "语言"
+        },
+        "user-server-settings": {
+            "wrong_usage": "使用方法错误, 请使用`help user-server-settings` 来获取指令帮助",
+            "renamed": "已成功重命名伺服器",
+            "reinstalled": "已成功重装伺服器"
+        },
+        "user-servers": {
+            "title": "所有伺服器:",
+            "no_server": "无伺服器可显示",
+            "owner": "(拥有者)",
+            "suspended": "(已暂停)",
+            "installing": "(安装中)",
+            "identifier": "ID",
+            "uuid": "uuid",
+            "node": "主机",
+            "sftp_details": "SFTP信息",
+            "description": "描述",
+            "limits": "限制(CPU, memory, disk, swap, io)"
+        },
+        "user-two-factor": {
+            "wrong_usage": "使用方法错误, 请使用`help user-two-factor` 来获取指令帮助",
+            "require_code": "请输入你获得的验证码",
+            "require_code_description": "请扫描或者使用密钥**%key%**来获取验证码",
+            "expired": "已失效",
+            "backup_codes": "你的所有备份验证码",
+            "disabled_2fa": "已成功关闭2FA"
+        },
+        "user-show-permissions": {
+            "title": "API密钥的所有权限",
+            "allocation": "**allocation**:",
+            "backup": "**backup**:",
+            "control": "**control**:",
+            "database": "**database**:",
+            "file": "**file**:",
+            "schedule": "**schedule**:",
+            "settings": "**settings**:",
+            "startup": "**startup**:",
+            "user": "**user**:",
+            "websocket": "**websocket**:"
+        },
+        "user-server-details": {
+            "wrong_usage": "使用方法错误, 请使用`help user-server-details` 来获取指令帮助",
+            "title": "**%ServerID% 伺服器的详细信息**",
+            "name": "名字",
+            "owner": "(拥有者)",
+            "suspended": "(已暂停)",
+            "installing": "(安装中)",
+            "identifier": "**ID**",
+            "uuid": "**uuid**",
+            "node": "**主机**",
+            "sftp_details": "**SFTP信息**",
+            "description": "**描述**",
+            "limits": "**限制(CPU, memory, disk, swap, io)**",
+            "feature_limits": "**可用功能限制(数据库, 端口, 备份)**",
+            "main": "(主要)",
+            "ip_alias": "**IP别名**",
+            "notes": "**备注**",
+            "null": "没有"
+        },
+        "user-server-resource": {
+            "wrong_usage": "使用方法错误, 请使用`help user-server-resource` 来获取指令帮助",
+            "title": "**%ServerID% 的资源占用情况**",
+            "suspended": "已暂停",
+            "not_suspended": "否",
+            "is_suspended": "**是否已暂停**",
+            "state": "**状态**",
+            "resources_usage": "**资源占用**",
+            "memory": "**内存**",
+            "CPU": "**CPU**",
+            "disk": "**磁盘**",
+            "network_rx_bytes": "**network rx bytes**",
+            "network_tx_bytes": "**network tx bytes**"
+        },
+        "user-server-power": {
+            "wrong_usage": "使用方法错误, 请使用`help user-server-power` 来获取指令帮助",
+            "sucess": "操作发送成功!"
+        },
+        "user-server-allocation": {
+            "wrong_usage": "使用方法错误, 请使用`help user-server-allocation` 来获取指令帮助",
+            "list": {
+                "title": "%ServerID% 伺服器所有端口"
+            },
+            "create": {
+                "title": "端口创建成功!"
+            },
+            "notes": {
+                "title": "设置端口笔记/备注成功!"
+            },
+            "primary": {
+                "title": "设置端口为主要端口成功!"
+            },
+            "delete": {
+                "success": "删除端口成功!"
+            },
+            "id": "**ID**",
+            "default": "(主要端口)",
+            "ip_alias": "**IP别名**",
+            "note": "**笔记/备注**",
+            "no_note": "没有添加笔记/备注",
+            "ip": "**IP**"
+        },
+        "reload": {
+            "reloading" : "重载机器人中... 请稍等...",
+            "reloaded": "机器人已重载, 制作 by HS永恒的你",
+            "warning": "注意: 重载机器人可能会导致出现一些bugs或是出现内存泄漏问题, 建议你重启你的机器人"
+        }
+    },
+    "handle": {
+        "loading": {
+            "aliases_is": "别名为",
+            "loaded": "✔ 成功加載指令 %command%",
+            "done": "嗨, %bot% 现在已在线!",
+            "done_1": "机器人加载成功!"
+        },
+        "message": {
+            "bot": "检测到机器人使用了指令",
+            "roles_found": "用户的身份组%role%与指令%command%允许的身份组一致",
+            "roles_not_found": "无法从用户身上检测到指令允许的身份组",
+            "have_cooldown": "你只能使用这个指令每%cooldown%!",
+            "runned_command": "%user%执行了指令: %command%"
+        }
+    }
+}

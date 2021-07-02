@@ -1,3 +1,4 @@
+delete require.cache[require.resolve(`./index.js`)]
 const Discord = require("discord.js");
 const DiscordConfig = require("./config/discord.json")
 const BotConfig = require("./config/bot.json")
@@ -5,15 +6,6 @@ const PteroConfig = require("./config/pterodactyl.json")
 const fs = require('fs')
 const bot = new Discord.Client({ disableMentions: 'everyone' });
 const moment = require('moment-timezone');
-console.clear()
-const logo = fs.readFileSync('./resource/logo.txt', 'utf8')
-console.log("\x1b[36m\x1b[1m" + logo.split("\n").join("\n\x1b[36m\x1b[1m") + "\x1b[0m")
-if (BotConfig["force_support"] === true) {
-    if (process.version.replace("v", "").split(".")[0] < 14) {
-        console.warn("你的NodeJS版本过旧, 目前只支持v14或以上, 请更新你的NodeJS版本!")
-        process.exit()
-    }
-}
 moment.locale(BotConfig["language"]);
 if (BotConfig.timezone["enabled"] === true) {
     moment.tz(BotConfig["timezone"].tz)
@@ -25,7 +17,7 @@ let includes = ["log", "info", "warn", "error"]
 if (BotConfig["debug"] === true) {
     includes.push('debug')
 } else {
-    console.debug = function () { }
+    console.debug = function() {}
 }
 if (!fs.existsSync(`./resource/language/${BotConfig["language"]}.json`)) {
     console.info(`无法检测到 ${BotConfig["language"]} 的语言文件, 请添加该语言的语言文件后再重新启动`)
@@ -71,5 +63,5 @@ bot.on('message', async message => {
 bot.login(DiscordConfig["token"])
 process.on('unhandledRejection', error => {
     let pre = `\n============================================================\n--- DO NOT REPORT THIS TO HS FOREVER AS A BUG OR A CRASH ---\n============================================================\n`
-    console.error(pre, error, pre);
+	console.error(pre , error , pre);
 });

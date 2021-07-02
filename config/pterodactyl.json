@@ -1,0 +1,14 @@
+{
+    "IP": "",
+    "client": {
+        "type": "key",
+        "api-key": "",
+        "cookie": ""
+    },
+    "application": {
+        "type": "key",
+        "api-key": "",
+        "cookies": ""
+    },
+    "ConfigVersion": "v1"
+}
