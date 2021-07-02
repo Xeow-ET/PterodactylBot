@@ -24,7 +24,7 @@ Pterodactyl Bot是一个机器人并使用Pterodactyl面板API制作出的多功
 <a href="https://pterodactyl.xinrui.tk/" target="_blank" class="externalLink" rel="nofollow"><img src="https://i.imgur.com/Hv9gcKM.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]"</a>
 <a href="https://discord.gg/wu2qs6eAZQ" target="_blank" class="externalLink" rel="nofollow"><img src="https://imgur.com/QdqdNVo.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" data-url="https://imgur.com/QdqdNVo.png"></a><br>
 <a href="https://www.spigotmc.org/resources/authors/esophose.34168/" class="internalLink"><img src="https://imgur.com/LIMDboy.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" data-url="https://imgur.com/LIMDboy.png"></a>
-<a href="https://github.com/Rosewood-Development/PlayerPoints" target="_blank" class="externalLink" rel="nofollow"><img src="https://imgur.com/kkIKu5K.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" ></a><br>
+<a href="https://github.com/Happy-and-Smile/PterodactylBot" target="_blank" class="externalLink" rel="nofollow"><img src="https://imgur.com/kkIKu5K.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" ></a><br>
 <br>
 <br>
 </span></span>&ZeroWidthSpace;</div>
