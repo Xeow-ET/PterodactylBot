@@ -20,6 +20,7 @@ Pterodactyl Bot是一个机器人并使用Pterodactyl面板API制作出的多功
 ## 許可證
 此机器人完全使用 [MIT](./LICENSE) 协议开源，维护良好的开源生态从我做起 (*>ω<)φ
 
+## 其他
 <div style="text-align: center"><span style="font-family: 'Tahoma'"><span style="font-size: 18px"><br>
 <a href="https://pterodactyl.xinrui.tk/" target="_blank" class="externalLink" rel="nofollow"><img src="https://i.imgur.com/Hv9gcKM.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]"</a>
 <a href="https://discord.gg/wu2qs6eAZQ" target="_blank" class="externalLink" rel="nofollow"><img src="https://imgur.com/QdqdNVo.png" class="bbCodeImage LbImage" alt="[&ZeroWidthSpace;IMG]" data-url="https://imgur.com/QdqdNVo.png"></a><br>
