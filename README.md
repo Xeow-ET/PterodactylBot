@@ -1,5 +1,6 @@
 # Pterodactyl面板机器人
 Pterodactyl Bot是一个机器人并使用Pterodactyl面板API制作出的多功能机器人
+
 ![](https://github.com/Happy-and-Smile/PterodactylBot/blob/main/resource/images/PterodactylBot.PNG?raw=true)
 
 ## 安装
