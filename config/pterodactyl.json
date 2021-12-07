@@ -8,7 +8,7 @@
     "application": {
         "type": "key",
         "api-key": "",
-        "cookies": ""
+        "cookie": ""
     },
     "ConfigVersion": "v1"
 }
