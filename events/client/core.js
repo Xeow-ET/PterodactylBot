@@ -23,7 +23,7 @@ module.exports = {
             }
             headers["Authorization"] = `Bearer ${PteConfig.application["api-key"]}`
         } else if (PteConfig.application["type"].toLowerCase() === "cookie") {
-            if (!PteConfig.application["cookies"]) {
+            if (!PteConfig.application["cookie"]) {
                 message.channel.send("没有设置Cookie")
                 return undefined
             }
@@ -64,7 +64,7 @@ module.exports = {
             }
             headers["Authorization"] = `Bearer ${PteConfig.client["api-key"]}`
         } else if(PteConfig.client["type"].toLocaleLowerCase() === "cookie") {
-            if (!PteConfig.client["cookies"]){
+            if (!PteConfig.client["cookie"]){
                 message.channel.send(lang["core"].no_cookie)
                 return ""
             }
